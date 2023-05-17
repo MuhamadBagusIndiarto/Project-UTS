@@ -9,7 +9,7 @@ class home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daftar - Daftar Resep Kue Kering'),
+        title: Text('Daftar Resep Kue'),
       ),
       body: ListView.builder(
           itemCount: dataResep.length,
